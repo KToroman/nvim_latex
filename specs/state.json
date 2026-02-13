@@ -4,30 +4,37 @@
     {
       "project_number": 91,
       "project_name": "himalaya_label_management_keybindings",
-      "status": "not_started",
+      "status": "researching",
       "language": "neovim",
       "created": "2026-02-13T23:04:26Z",
-      "last_updated": "2026-02-13T23:04:26Z"
+      "last_updated": "2026-02-13T23:05:51Z",
+      "session_id": "sess_1771023938_df2ce8"
     },
     {
       "project_number": 90,
       "project_name": "himalaya_protonmail_bidirectional_sync",
-      "status": "researched",
+      "status": "planned",
       "language": "general",
       "created": "2026-02-13T22:37:30Z",
-      "last_updated": "2026-02-13T22:47:13Z",
+      "last_updated": "2026-02-13T23:07:31Z",
       "dependencies": [
         89
       ],
-      "session_id": "sess_1771022484_1f55a5",
+      "session_id": "sess_1771023875_9668b9",
       "researched": "2026-02-13T22:47:13Z",
       "artifacts": [
         {
           "path": "specs/090_himalaya_protonmail_bidirectional_sync/reports/research-001.md",
           "type": "research",
           "summary": "Research report on Protonmail folder/label sync with Himalaya including IMAP testing results, architecture comparison with Gmail, and recommended mbsyncrc configuration"
+        },
+        {
+          "path": "specs/090_himalaya_protonmail_bidirectional_sync/plans/implementation-001.md",
+          "type": "plan",
+          "summary": "Implementation plan for Protonmail bidirectional sync with 5 phases covering channel creation, home-manager rebuild, testing, and documentation"
         }
-      ]
+      ],
+      "planned": "2026-02-13T23:07:31Z"
     },
     {
       "project_number": 89,

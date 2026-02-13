@@ -8,20 +8,24 @@ next_project_number: 92
 
 ### 91. Add Himalaya label management keybindings in Neovim
 - **Effort**: TBD
-- **Status**: [NOT STARTED]
+- **Status**: [RESEARCHING]
+- **Research Started**: 2026-02-13
 - **Language**: neovim
 - **Dependencies**: None
 
 **Description**: Implement keybindings in Neovim for Himalaya label management: (1) create/edit/delete labels with editing changing all emails the label is applied to, (2) mapping to label the email under cursor (if no selection), and (3) mapping to label all selected emails in visual mode.
 
 ### 90. Ensure bidirectional syncing for labels and folders for himalaya and Protonmail
-- **Effort**: TBD
-- **Status**: [RESEARCHED]
+- **Effort**: 1 hour
+- **Status**: [PLANNED]
 - **Research Started**: 2026-02-13
 - **Research Completed**: 2026-02-13
+- **Planning Started**: 2026-02-13
+- **Planning Completed**: 2026-02-13
 - **Language**: general
 - **Dependencies**: Task #89
 - **Research**: [research-001.md](090_himalaya_protonmail_bidirectional_sync/reports/research-001.md)
+- **Plan**: [implementation-001.md](090_himalaya_protonmail_bidirectional_sync/plans/implementation-001.md)
 
 **Description**: Ensure bidirectional syncing for labels and folders for himalaya and the logos (protonmail) email account in an analogous manner to the himalaya and gmail account detailed in task 89.
 
