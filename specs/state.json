@@ -36,11 +36,11 @@
     {
       "project_number": 92,
       "project_name": "sync_wezterm_directory_with_neovim_session",
-      "status": "planned",
+      "status": "researched",
       "language": "neovim",
       "created": "2026-02-21T23:24:52Z",
-      "last_updated": "2026-02-21T23:42:56Z",
-      "session_id": "sess_1771717241_3e1d13",
+      "last_updated": "2026-02-24T15:47:52Z",
+      "session_id": "sess_1771947738_448701",
       "artifacts": [
         {
           "type": "research",
@@ -51,6 +51,11 @@
           "path": "specs/092_sync_wezterm_directory_with_neovim_session/plans/implementation-001.md",
           "type": "plan",
           "summary": "4-phase verification and enhancement plan for WezTerm directory synchronization"
+        },
+        {
+          "type": "research",
+          "path": "specs/092_sync_wezterm_directory_with_neovim_session/reports/research-002.md",
+          "summary": "Supplemental research on persisting directory changes in parent shell after Neovim exits, recommending the lastdir file + shell wrapper pattern"
         }
       ],
       "planned": "2026-02-21T23:42:56Z"
