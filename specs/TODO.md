@@ -8,11 +8,12 @@ next_project_number: 96
 
 ### 95. Remove ineffective changes from tasks 92 and 94
 - **Effort**: 0.25 hours
-- **Status**: [PLANNED]
+- **Status**: [IMPLEMENTING]
 - **Research Started**: 2026-02-24
 - **Research Completed**: 2026-02-24
 - **Planning Started**: 2026-02-24
 - **Planning Completed**: 2026-02-24
+- **Implementation Started**: 2026-02-24
 - **Language**: general
 - **Research**: [research-001.md](095_remove_ineffective_changes_92_94/reports/research-001.md)
 - **Plan**: [implementation-001.md](095_remove_ineffective_changes_92_94/plans/implementation-001.md)

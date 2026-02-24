@@ -4,11 +4,11 @@
     {
       "project_number": 95,
       "project_name": "remove_ineffective_changes_92_94",
-      "status": "planned",
+      "status": "implementing",
       "language": "general",
       "created": "2026-02-24T17:42:13Z",
-      "last_updated": "2026-02-24T17:57:40Z",
-      "session_id": "sess_1771955656_bd29c4",
+      "last_updated": "2026-02-24T18:07:02Z",
+      "session_id": "sess_1771956395_94126d",
       "artifacts": [
         {
           "type": "research",
@@ -21,7 +21,8 @@
           "summary": "2-phase plan to revert ineffective WezTerm directory changes across nvim and dotfiles repos"
         }
       ],
-      "planned": "2026-02-24T17:57:40Z"
+      "planned": "2026-02-24T17:57:40Z",
+      "started": "2026-02-24T18:07:02Z"
     },
     {
       "project_number": 94,
