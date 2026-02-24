@@ -39,8 +39,8 @@
       "status": "researched",
       "language": "neovim",
       "created": "2026-02-21T23:24:52Z",
-      "last_updated": "2026-02-24T16:04:29Z",
-      "session_id": "sess_1771948496_514be0",
+      "last_updated": "2026-02-24T16:17:01Z",
+      "session_id": "sess_1771949500_6fa8de",
       "artifacts": [
         {
           "type": "research",
@@ -61,6 +61,11 @@
           "type": "research",
           "path": "specs/092_sync_wezterm_directory_with_neovim_session/reports/research-003.md",
           "summary": "Diagnostic investigation identifying Neovim OSC 7 emission as primary cause of WezTerm directory drift, with 5 options for fixing"
+        },
+        {
+          "type": "research",
+          "path": "specs/092_sync_wezterm_directory_with_neovim_session/reports/research-004.md",
+          "summary": "Analysis of 4 fix options for OSC 7 metadata vs shell $PWD issue; recommends fish prompt hook as minimal fix (4 lines)"
         }
       ],
       "planned": "2026-02-21T23:42:56Z"
