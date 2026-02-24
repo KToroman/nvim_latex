@@ -36,11 +36,11 @@
     {
       "project_number": 92,
       "project_name": "sync_wezterm_directory_with_neovim_session",
-      "status": "planned",
+      "status": "completed",
       "language": "neovim",
       "created": "2026-02-21T23:24:52Z",
-      "last_updated": "2026-02-24T16:25:29Z",
-      "session_id": "sess_1771950153_a53af2",
+      "last_updated": "2026-02-24T16:32:32Z",
+      "session_id": "sess_1771950577_7b418b",
       "artifacts": [
         {
           "type": "research",
@@ -66,9 +66,16 @@
           "path": "specs/092_sync_wezterm_directory_with_neovim_session/plans/implementation-002.md",
           "type": "plan",
           "summary": "1-phase implementation plan: add fish prompt hook to fix stale OSC 7 metadata after Neovim exits"
+        },
+        {
+          "type": "summary",
+          "path": "specs/092_sync_wezterm_directory_with_neovim_session/summaries/implementation-summary-20260224.md",
+          "summary": "Implementation summary with verification steps and notes"
         }
       ],
-      "planned": "2026-02-24T16:25:29Z"
+      "planned": "2026-02-24T16:25:29Z",
+      "completed": "2026-02-24T16:32:32Z",
+      "completion_summary": "Added fish prompt hook (__wezterm_osc7_prompt) that emits OSC 7 escape sequences on every prompt, overwriting stale pane metadata from child processes like Neovim. WezTerm new tabs now spawn at the shell's actual $PWD after Neovim exits."
     },
     {
       "project_number": 91,

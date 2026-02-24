@@ -1,7 +1,7 @@
 # Implementation Plan: Task #92 - Fix WezTerm New Tab Directory
 
 - **Task**: 92 - Sync Wezterm terminal directory with Neovim session root
-- **Status**: [NOT STARTED]
+- **Status**: [COMPLETED]
 - **Effort**: 0.5 hours
 - **Dependencies**: None
 - **Research Inputs**: [research-001.md](../reports/research-001.md), [research-002.md](../reports/research-002.md), [research-003.md](../reports/research-003.md), [research-004.md](../reports/research-004.md)
@@ -45,7 +45,7 @@ All four research reports were consulted:
 
 ## Implementation Phases
 
-### Phase 1: Add fish prompt hook and verify [NOT STARTED]
+### Phase 1: Add fish prompt hook and verify [COMPLETED]
 
 **Goal**: Add the `__wezterm_osc7_prompt` function to fish config and verify the fix works end-to-end.
 
