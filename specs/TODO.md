@@ -1,10 +1,18 @@
 ---
-next_project_number: 96
+next_project_number: 97
 ---
 
 # TODO
 
 ## Tasks
+
+### 96. Add QUESTION: tag support to /learn command
+- **Effort**: 3-4 hours
+- **Status**: [NOT STARTED]
+- **Language**: meta
+- **Dependencies**: None
+
+**Description**: Expand the /learn command to recognize QUESTION: tags in source code comments. When found, create research tasks aimed at answering these questions. Group questions by topic when natural (shared terms, file section proximity), but keep tasks focused enough that all questions can be completely answered. Map QUESTION: tags to a new "research-task" type, following the same interactive selection pattern as TODO: tags (including optional topic grouping for multiple questions).
 
 ### 87. Investigate terminal directory change when opening neovim in wezterm
 - **Effort**: TBD

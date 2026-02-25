@@ -1,6 +1,17 @@
 {
-  "next_project_number": 96,
+  "next_project_number": 97,
   "active_projects": [
+    {
+      "project_number": 96,
+      "project_name": "add_question_tag_support_to_learn_command",
+      "status": "not_started",
+      "language": "meta",
+      "effort": "3-4 hours",
+      "created": "2026-02-25T12:00:00Z",
+      "last_updated": "2026-02-25T12:00:00Z",
+      "dependencies": [],
+      "artifacts": []
+    },
     {
       "project_number": 87,
       "project_name": "investigate_wezterm_terminal_directory_change",
