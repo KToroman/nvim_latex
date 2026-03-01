@@ -1,7 +1,7 @@
 # Implementation Plan: Task #98
 
 - **Task**: 98 - Remove deprecated index.md and consolidate context index to JSON
-- **Status**: [NOT STARTED]
+- **Status**: [COMPLETED]
 - **Effort**: 1-2 hours
 - **Dependencies**: None
 - **Research Inputs**: [research-001.md](../reports/research-001.md)
@@ -42,7 +42,7 @@ Research confirmed that index.md has been deprecated since 2026-02-24, contains 
 
 ## Implementation Phases
 
-### Phase 1: Update Agent and Skill References [NOT STARTED]
+### Phase 1: Update Agent and Skill References [COMPLETED]
 
 **Goal**: Update the 4 files in Category A (active agent/skill context loading) that directly load index.md as context. These are the highest-risk references since they affect agent behavior.
 
@@ -77,7 +77,7 @@ Research confirmed that index.md has been deprecated since 2026-02-24, contains 
 
 ---
 
-### Phase 2: Update Documentation and Template References [NOT STARTED]
+### Phase 2: Update Documentation and Template References [COMPLETED]
 
 **Goal**: Update Categories B, C, and D (documentation, templates, config schemas, workflow docs) to reference index.json instead of index.md. These are lower risk since they affect documentation accuracy rather than runtime behavior.
 
@@ -122,7 +122,7 @@ Research confirmed that index.md has been deprecated since 2026-02-24, contains 
 
 ---
 
-### Phase 3: Update Migration Guide and Delete index.md [NOT STARTED]
+### Phase 3: Update Migration Guide and Delete index.md [COMPLETED]
 
 **Goal**: Update the migration guide to reflect the completed transition, then delete the deprecated index.md files from both `.claude/context/` and `.opencode/context/`.
 
@@ -148,7 +148,7 @@ Research confirmed that index.md has been deprecated since 2026-02-24, contains 
 
 ---
 
-### Phase 4: Final Verification [NOT STARTED]
+### Phase 4: Final Verification [COMPLETED]
 
 **Goal**: Comprehensive verification that no remaining references to index.md exist in active files and that the context discovery system works correctly with index.json only.
 

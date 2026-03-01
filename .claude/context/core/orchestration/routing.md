@@ -391,7 +391,7 @@ Commands update task status using text-based markers:
 
 **Load**: Context files needed for specific workflow
 
-See `.claude/context/index.md` for execution context loading patterns.
+See `.claude/context/index.json` for execution context loading patterns.
 
 ---
 

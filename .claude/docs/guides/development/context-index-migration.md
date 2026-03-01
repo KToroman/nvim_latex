@@ -1,13 +1,18 @@
 # Context Index Migration Guide
 
 **Created**: 2026-02-24
-**Purpose**: Guide for migrating from index.md to index.json for context discovery
+**Updated**: 2026-03-01 (Migration Complete)
+**Purpose**: Historical reference for the migration from index.md to index.json
+
+## Migration Status: COMPLETED
+
+The migration from `index.md` to `index.json` has been completed as of 2026-03-01. The deprecated `index.md` file has been removed from the repository.
 
 ## Overview
 
-The context discovery system has been enhanced with a machine-readable `index.json` format that enables automated context discovery via jq queries. This guide explains how to migrate from the markdown-based `index.md` to the new JSON format.
+The context discovery system uses a machine-readable `index.json` format that enables automated context discovery via jq queries. This guide is preserved as historical reference for the migration process.
 
-## Why Migrate?
+## Current Architecture
 
 ### Benefits of index.json
 
@@ -18,18 +23,15 @@ The context discovery system has been enhanced with a machine-readable `index.js
 5. **Deprecation Tracking**: `deprecated` and `replacement` fields for clean transitions
 6. **Validation**: JSON Schema enables automated validation
 
-### index.md Status
-
-The markdown `index.md` file is preserved for human reference but is now marked as deprecated for agent use. Agents should use `index.json` for context discovery.
-
 ## File Locations
 
 ```
 .claude/context/
-├── index.json           # Machine-readable (primary)
-├── index.schema.json    # JSON Schema definition
-└── index.md             # Human reference (deprecated for agents)
+├── index.json           # Machine-readable context discovery (primary)
+└── index.schema.json    # JSON Schema definition for validation
 ```
+
+**Note**: `index.md` was removed on 2026-03-01 after a deprecation period. All agent references now use `index.json`.
 
 ## Entry Structure
 

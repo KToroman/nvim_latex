@@ -14,7 +14,7 @@ Central routing intelligence for the task management system.
 Load context on-demand when needed:
 - `@.claude/context/core/orchestration/orchestration-core.md` - Routing, delegation, session tracking
 - `@.claude/context/core/orchestration/state-management.md` - Task lookup and status validation
-- `@.claude/context/index.md` - Full context discovery index
+- `@.claude/context/index.json` - Full context discovery index
 
 ## Trigger Conditions
 

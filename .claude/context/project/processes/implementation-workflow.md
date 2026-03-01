@@ -410,7 +410,7 @@ Load minimal context for routing decisions:
 
 ### Execution Stage (Implementer)
 
-Implementer loads context on-demand per `.claude/context/index.md`:
+Implementer loads context on-demand per `.claude/context/index.json`:
 - `core/standards/subagent-return-format.md` (return format)
 - `core/standards/status-markers.md` (status transitions)
 - `core/system/artifact-management.md` (lazy directory creation)
