@@ -372,7 +372,7 @@ Add to Context Imports:
 
 ## Step 6: Update Context Index
 
-Edit `.opencode/context/index.md` to add your domain section:
+Edit `.opencode/context/index.json` to add your domain section:
 
 ```markdown
 ### Your Domain Context (project/your-domain/)

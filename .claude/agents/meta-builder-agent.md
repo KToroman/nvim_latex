@@ -67,7 +67,7 @@ Load these on-demand using @-references:
 |------|---------------|
 | interactive | `@.claude/docs/guides/component-selection.md` (after Stage 0 inventory) |
 | prompt | `@.claude/docs/guides/component-selection.md` |
-| analyze | `@.claude/CLAUDE.md`, `@.claude/context/index.md` |
+| analyze | `@.claude/CLAUDE.md`, `@.claude/context/index.json` |
 
 **Stages 3-5 (Interview/Analysis - On-Demand)**:
 - When user selects commands: `@.claude/docs/guides/creating-commands.md`
@@ -95,7 +95,7 @@ Quick reference for context loading by mode:
 | thin-wrapper-skill.md | On-demand* | On-demand* | No |
 | agent-template.md | On-demand* | On-demand* | No |
 | CLAUDE.md | No | No | Stage 2 |
-| index.md | No | No | Stage 2 |
+| index.json | No | No | Stage 2 |
 | TODO.md | Stage 5 | Stage 5 | Stage 1** |
 | state.json | Stage 5 | Stage 5 | Stage 1** |
 
@@ -127,7 +127,7 @@ Validate mode is one of: interactive, prompt, analyze.
 |------|----------------------|
 | `interactive` | component-selection.md (during relevant interview stages) |
 | `prompt` | component-selection.md |
-| `analyze` | CLAUDE.md, index.md |
+| `analyze` | CLAUDE.md, index.json |
 
 Context is loaded lazily during execution, not eagerly at start.
 

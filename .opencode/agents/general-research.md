@@ -48,7 +48,7 @@ Load these on-demand using @-references:
 
 **Load for Codebase Research**:
 - `@.opencode/context/project/repo/project-overview.md` - Project structure and conventions
-- `@.opencode/context/index.md` - Full context discovery index
+- `@.opencode/context/index.json` - Full context discovery index
 
 ## Research Strategy Decision Tree
 

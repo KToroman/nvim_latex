@@ -418,7 +418,7 @@ Load minimal context for routing decisions:
 
 ### Execution Stage (Researcher)
 
-Researcher loads context on-demand per `.opencode/context/index.md`:
+Researcher loads context on-demand per `.opencode/context/index.json`:
 
 - `core/standards/subagent-return-format.md` (return format)
 - `core/standards/status-markers.md` (status transitions)

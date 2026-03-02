@@ -21,7 +21,7 @@ Load context on-demand when needed:
 
 - `@.opencode/context/core/orchestration/orchestration-core.md` - Routing, delegation, session tracking
 - `@.opencode/context/core/orchestration/state-management.md` - Task lookup and status validation
-- `@.opencode/context/index.md` - Full context discovery index
+- `@.opencode/context/index.json` - Full context discovery index
 
 ## Trigger Conditions
 

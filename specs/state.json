@@ -1,56 +1,132 @@
 {
-  "next_project_number": 90,
+  "next_project_number": 100,
   "active_projects": [
     {
-      "project_number": 89,
-      "project_name": "gmail_himalaya_folder_label_sync",
+      "project_number": 99,
+      "project_name": "review_agent_systems_core_extensions",
       "status": "planned",
-      "language": "neovim",
-      "created": "2026-02-13T22:03:59Z",
-      "last_updated": "2026-02-13T22:13:40Z",
-      "session_id": "sess_1771020682_ef225a",
+      "language": "meta",
+      "created": "2026-03-01T20:06:21Z",
+      "last_updated": "2026-03-01T22:07:49Z",
+      "session_id": "sess_1772402604_4fb814",
+      "researched": "2026-03-01T21:56:57Z",
       "artifacts": [
         {
+          "path": "specs/099_review_agent_systems_core_extensions/reports/research-001.md",
           "type": "research",
-          "path": "specs/089_gmail_himalaya_folder_label_sync/reports/research-001.md",
-          "summary": "Research report on Gmail-Himalaya folder/label synchronization, covering bidirectional sync behavior, mbsync configuration, and Himalaya folder commands"
+          "summary": "Comprehensive comparison of 3 .claude/ systems identifying 22 missing core features and proposing core+extensions architecture"
         },
         {
+          "path": "specs/099_review_agent_systems_core_extensions/reports/research-002.md",
+          "type": "research",
+          "summary": "Supplementary research for direct integration extension architecture - file copying with manifest tracking, <leader>ae picker, Claude Code discovery analysis"
+        },
+        {
+          "path": "specs/099_review_agent_systems_core_extensions/reports/research-003.md",
+          "type": "research",
+          "summary": "Claude Code native plugin system analysis - schema, capabilities, gap assessment, hybrid plugin+core architecture recommendation"
+        },
+        {
+          "path": "specs/099_review_agent_systems_core_extensions/reports/research-003.md",
+          "type": "research",
+          "summary": "Research report on Claude Code native plugin system as alternative to custom extension architecture, with detailed schema analysis, gap assessment, and hybrid plugin+core recommendation"
+        },
+        {
+          "path": "specs/099_review_agent_systems_core_extensions/reports/research-004.md",
+          "type": "research",
+          "summary": "Comprehensive research report covering current picker architecture analysis, extension manifest schema, file merge strategies (6 types), state tracking format, practical core-vs-extension mapping, and 5-phase implementation plan"
+        },
+        {
+          "path": "specs/099_review_agent_systems_core_extensions/plans/implementation-003.md",
           "type": "plan",
-          "path": "specs/089_gmail_himalaya_folder_label_sync/plans/implementation-001.md",
-          "summary": "Implementation plan for mbsyncrc bidirectional sync configuration"
+          "summary": "5-phase implementation plan for simplified file-copy extension architecture with manifest schema, loader engine, merge strategies, picker UI, and initial extension packs"
         }
       ],
-      "planned": "2026-02-13T22:13:40Z"
+      "planned": "2026-03-01T22:07:49Z"
     },
     {
-      "project_number": 88,
-      "project_name": "simplify_himalaya_threading_keybindings",
+      "project_number": 98,
+      "project_name": "consolidate_context_index_to_json",
+      "status": "completed",
+      "language": "meta",
+      "created": "2026-03-01T19:58:07Z",
+      "last_updated": "2026-03-01T20:30:41Z",
+      "session_id": "sess_1772396628_adbf91",
+      "researched": "2026-03-01T20:10:11Z",
+      "artifacts": [
+        {
+          "path": "specs/098_consolidate_context_index_to_json/reports/research-001.md",
+          "type": "research",
+          "summary": "Research report with categorized reference analysis and migration recommendations for index.md removal"
+        },
+        {
+          "path": "specs/098_consolidate_context_index_to_json/plans/implementation-001.md",
+          "type": "plan",
+          "summary": "4-phase implementation plan covering agent/skill updates, documentation updates, file deletion, and verification"
+        },
+        {
+          "path": "specs/098_consolidate_context_index_to_json/summaries/implementation-summary-20260301.md",
+          "type": "summary",
+          "summary": "Implementation summary with verification results and complete file modification list"
+        }
+      ],
+      "planned": "2026-03-01T20:18:41Z",
+      "started": "2026-03-01T20:24:10Z",
+      "completed": "2026-03-01T20:30:41Z",
+      "completion_summary": "Removed deprecated index.md files from both .claude/ and .opencode/ context directories. Updated 35 files across agent definitions, skill definitions, and documentation to reference index.json consistently. The context-index-migration.md guide was updated to reflect the completed migration.",
+      "claudemd_suggestions": "Updated 35 files in .claude/ and .opencode/ to change index.md references to index.json. Key changes: agents/general-implementation-agent.md, agents/meta-builder-agent.md, skills/skill-orchestrator/SKILL.md, skills/skill-git-workflow/SKILL.md, docs/guides/context-loading-best-practices.md, context/core/schemas/subagent-frontmatter.yaml, context/core/templates/agent-template.md, and migration guide. Deleted .claude/context/index.md and .opencode/context/index.md."
+    },
+    {
+      "project_number": 97,
+      "project_name": "add_typst_clear_cache_keymap",
       "status": "completed",
       "language": "neovim",
-      "created": "2026-02-13T21:58:35Z",
-      "last_updated": "2026-02-13T22:11:38Z",
-      "session_id": "sess_1771020462_b1cca1",
+      "created": "2026-02-26T05:30:00Z",
+      "last_updated": "2026-02-26T05:40:00Z",
+      "session_id": "sess_1772084164_b88843",
+      "completed": "2026-02-26T05:40:00Z",
+      "completion_summary": "Added <leader>lC keymap that stops the preview, restarts tinymist LSP to clear its cache, and notifies the user to reopen with <leader>lp.",
       "artifacts": [
         {
           "type": "research",
-          "path": "specs/088_simplify_himalaya_threading_keybindings/reports/research-001.md",
-          "summary": "Research report with implementation approach for simplifying himalaya threading keybindings"
+          "path": "specs/097_add_typst_clear_cache_keymap/reports/research-001.md",
+          "summary": "Research report covering tinymist doClearCache LSP command, existing typst keymaps, and recommended implementation approach"
+        }
+      ]
+    },
+    {
+      "project_number": 96,
+      "project_name": "add_question_tag_support_to_learn_command",
+      "status": "completed",
+      "language": "meta",
+      "effort": "3-4 hours",
+      "created": "2026-02-25T12:00:00Z",
+      "last_updated": "2026-02-25T17:18:57Z",
+      "dependencies": [],
+      "artifacts": [
+        {
+          "path": "specs/096_add_question_tag_support_to_learn_command/reports/research-001.md",
+          "type": "research",
+          "summary": "Research report with 10 findings covering extraction patterns, research-task type design, topic grouping reuse, interactive flow additions, and 4 files requiring modification"
         },
         {
-          "path": "specs/088_simplify_himalaya_threading_keybindings/plans/implementation-001.md",
+          "path": "specs/096_add_question_tag_support_to_learn_command/plans/implementation-001.md",
           "type": "plan",
-          "summary": "Implementation plan for simplifying threading keybindings to Tab and S-Tab"
+          "summary": "5-phase implementation plan for adding QUESTION: tag support to /learn command"
         },
         {
-          "path": "specs/088_simplify_himalaya_threading_keybindings/summaries/implementation-summary-20260213.md",
+          "path": "specs/096_add_question_tag_support_to_learn_command/summaries/implementation-summary-20260225.md",
           "type": "summary",
-          "summary": "Implementation summary for simplified threading keybindings"
+          "summary": "Implementation summary with verification results"
         }
       ],
-      "planned": "2026-02-13T22:06:39Z",
-      "completed": "2026-02-13T22:11:38Z",
-      "completion_summary": "Simplified himalaya sidebar threading keybindings from 6 keys (Tab, zo, zc, zR, zM, gT) to 2 keys (Tab for single thread, S-Tab for all threads). Added intelligent toggle_all_threads() function that collapses all if any expanded, else expands all."
+      "session_id": "sess_1772039248_3a9329",
+      "researched": "2026-02-25T16:51:43Z",
+      "planned": "2026-02-25T16:59:10Z",
+      "started": "2026-02-25T17:08:02Z",
+      "completed": "2026-02-25T17:18:57Z",
+      "completion_summary": "Added QUESTION: tag support to /learn command with content-based language detection for research tasks. Implemented extraction, interactive selection, topic grouping, and task creation following existing patterns.",
+      "claudemd_suggestions": "Modified skill-learn/SKILL.md (added Steps 3.4, 7.6-7.7.4, 8.5.1-8.5.4), learn.md command docs, learn-flow-example.md, and multi-task-creation-standard.md"
     },
     {
       "project_number": 87,
@@ -67,35 +143,6 @@
           "summary": "Comprehensive analysis of Neovim and WezTerm configurations showing no automatic directory-changing behavior"
         }
       ]
-    },
-    {
-      "project_number": 86,
-      "project_name": "fix_himalaya_sent_and_sidebar_keybindings",
-      "status": "completed",
-      "language": "neovim",
-      "created": "2026-02-13T21:33:45Z",
-      "last_updated": "2026-02-13T21:53:16Z",
-      "session_id": "sess_1771019324_34de38",
-      "artifacts": [
-        {
-          "type": "research",
-          "path": "specs/086_fix_himalaya_sent_and_sidebar_keybindings/reports/research-001.md",
-          "summary": "Research report on himalaya sent folder configuration issue and missing sidebar keybindings"
-        },
-        {
-          "path": "specs/086_fix_himalaya_sent_and_sidebar_keybindings/plans/implementation-001.md",
-          "type": "plan",
-          "summary": "Implementation plan covering config documentation, sync_all function, sidebar keybindings, and help menu updates"
-        },
-        {
-          "path": "specs/086_fix_himalaya_sent_and_sidebar_keybindings/summaries/implementation-summary-20260213.md",
-          "type": "summary",
-          "summary": "Implementation summary for himalaya sidebar keybindings and help menu"
-        }
-      ],
-      "planned": "2026-02-13T21:47:16Z",
-      "completed": "2026-02-13T21:53:16Z",
-      "completion_summary": "Documented himalaya sent folder config fix, implemented sync_all() function for HimalayaSyncFull command, added 4 sidebar keybindings (s/S/A/i) for sync and account operations, and updated help menu with new Sync & Accounts and Threading sections."
     },
     {
       "project_number": 78,

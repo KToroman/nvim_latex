@@ -62,7 +62,7 @@ Context loading directly impacts:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -90,7 +90,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: eager
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -119,7 +119,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -155,7 +155,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
   optional:
@@ -185,7 +185,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
   sections:
@@ -291,7 +291,7 @@ Examples file:
 │   ├── logic/                 # Logic domain context
 │   ├── meta/                  # Meta-programming context
 │   └── repo/                  # Repository context
-└── index.md                   # Context index
+└── index.json                   # Context index
 ```
 
 **Principles**:
@@ -320,7 +320,7 @@ Examples file:
 ```yaml
 context_loading:
   strategy: lazy                          # lazy | eager | conditional
-  index: ".opencode/context/index.md"     # Context index file
+  index: ".opencode/context/index.json"     # Context index file
   required: []                            # Always load these files
   optional: []                            # Load if needed
   conditional: []                         # Load based on conditions
@@ -343,7 +343,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"      # Always needed
     - "core/orchestration/state-management.md" # Always needed
@@ -364,7 +364,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
   conditional:
@@ -423,7 +423,7 @@ Example (Lean implementation):
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   cache:
     enabled: true
     ttl: 3600  # Cache for 1 hour
@@ -539,7 +539,7 @@ done
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   telemetry:
     enabled: true
     log_file: ".opencode/logs/context-loading.log"
@@ -605,7 +605,7 @@ cat /tmp/context-sizes.txt
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -635,7 +635,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -661,7 +661,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -690,7 +690,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -716,7 +716,7 @@ context_loading:
 ```yaml
 context_loading:
   strategy: lazy
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   required:
     - "core/orchestration/delegation.md"
     - "core/orchestration/state-management.md"
@@ -810,7 +810,7 @@ done
 
 **Prevention**:
 - Use validation script before commits
-- Document file structure in index.md
+- Document file structure in index.json
 - Use version control for all context files
 
 ### 8.4 Performance Issues
@@ -887,7 +887,7 @@ done
 
 - **Validation script**: `.opencode/scripts/validate-context-refs.sh`
 - **Update script**: `update-context-refs.sh`
-- **Context index**: `.opencode/context/index.md`
+- **Context index**: `.opencode/context/index.json`
 - **Max context sizes**: Research (50k), Planning (40k), Implementation (30k)
 - **File size limits**: Standards (700), Formats (600), Templates (400)
 

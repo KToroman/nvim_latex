@@ -390,7 +390,7 @@ Commands update task status using text-based markers:
 
 **Load**: Context files needed for specific workflow
 
-See `.opencode/context/index.md` for execution context loading patterns.
+See `.opencode/context/index.json` for execution context loading patterns.
 
 ---
 

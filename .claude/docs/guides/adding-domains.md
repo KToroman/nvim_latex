@@ -372,7 +372,7 @@ Add to Context Imports:
 
 ## Step 6: Update Context Index
 
-Edit `.claude/context/index.md` to add your domain section:
+Edit `.claude/context/index.json` to add your domain section:
 
 ```markdown
 ### Your Domain Context (project/your-domain/)

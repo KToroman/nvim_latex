@@ -13,7 +13,7 @@ Create properly scoped git commits for task operations.
 
 Load context on-demand when needed:
 - `@.opencode/context/core/standards/git-safety.md` - Git safety rules and best practices
-- `@.opencode/context/index.md` - Full context discovery index
+- `@.opencode/context/index.json` - Full context discovery index
 
 ## Trigger Conditions
 
