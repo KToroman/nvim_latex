@@ -431,7 +431,7 @@ Load minimal context for routing decisions:
 
 ### Execution Stage (Implementer)
 
-Implementer loads context on-demand per `.opencode/context/index.md`:
+Implementer loads context on-demand per `.opencode/context/index.json`:
 
 - `core/standards/subagent-return-format.md` (return format)
 - `core/standards/status-markers.md` (status transitions)

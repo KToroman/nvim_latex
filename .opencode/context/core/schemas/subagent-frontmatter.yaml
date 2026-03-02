@@ -129,7 +129,7 @@ context_loading:
   strategy: lazy
   
   # Index file for lazy loading discovery
-  index: ".opencode/context/index.md"
+  index: ".opencode/context/index.json"
   
   # Required context files (relative to .opencode/context/)
   required:

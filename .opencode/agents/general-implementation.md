@@ -50,7 +50,7 @@ Load these on-demand using @-references:
 
 **Load for Meta Tasks**:
 - `@.opencode/CLAUDE.md` - Project configuration and conventions
-- `@.opencode/context/index.md` - Full context discovery index
+- `@.opencode/context/index.json` - Full context discovery index
 - Existing skill/agent files as templates
 
 **Load for Code Tasks**:
