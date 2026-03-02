@@ -15,6 +15,15 @@
 -----------------------------------------------------------
 
 -- Disable matchit.vim and matchparen right at the start to prevent loading
+vim.g.vimtex_view_method = "skim"
+vim.opt.runtimepath:append(vim.fn.stdpath("data") .. "/site")
+if vim.fn.has("nvim") == 1 and (vim.v.servername == nil or vim.v.servername == "") then
+  local server = vim.fn.expand("nvim --listen /tmp/nvimsocket")
+  vim.fn.mkdir(vim.fn.fnamemodify(server, ":h"), "p")
+  vim.fn.serverstart(server)
+end
+
+
 vim.g.loaded_matchit = 1
 vim.g.loaded_matchparen = 1
 

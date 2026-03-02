@@ -93,7 +93,7 @@ if ok_wk then
     { "<leader>pl", "<cmd>TermExec cmd='pandoc %:p -o %:p:r.tex'<CR>", desc = "latex", icon = "󰐺", buffer = 0 },
     { "<leader>pm", "<cmd>TermExec cmd='pandoc %:p -o %:p:r.md'<CR>", desc = "markdown", icon = "󱀈", buffer = 0 },
     { "<leader>pp", "<cmd>TermExec cmd='pandoc %:p -o %:p:r.pdf' open=0<CR>", desc = "pdf", icon = "󰈙", buffer = 0 },
-    { "<leader>pv", "<cmd>TermExec cmd='sioyek %:p:r.pdf &' open=0<CR>", desc = "view", icon = "󰛓", buffer = 0 },
+    { "<leader>pv", "<cmd>TermExec cmd='open -a Skim %:p:r.pdf' open=0<CR>", desc = "view", icon = "󰛓", buffer = 0 },
     { "<leader>pw", "<cmd>TermExec cmd='pandoc %:p -o %:p:r.docx'<CR>", desc = "word", icon = "󰈭", buffer = 0 },
   })
 end

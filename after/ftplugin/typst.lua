@@ -209,7 +209,8 @@ local function typst_view_pdf()
   local pdf = vim.fn.fnamemodify(main_file, ":r") .. ".pdf"
 
   if vim.fn.filereadable(pdf) == 1 then
-    vim.fn.jobstart({ "sioyek", pdf }, { detach = true })
+    vim.fn.jobstart({ "open", "-a", "Skim", pdf }, { detach = true })
+
   else
     local pdf_name = vim.fn.fnamemodify(pdf, ":t")
     vim.notify("PDF not found: " .. pdf_name .. ". Compile first with <leader>lc", vim.log.levels.WARN)
@@ -240,7 +241,7 @@ if ok_wk then
     { "<leader>lr", typst_compile, desc = "run (compile once)", icon = "", buffer = 0 },
     { "<leader>ls", "<cmd>TypstPreviewSyncCursor<CR>", desc = "sync cursor (web)", icon = "", buffer = 0 },
     { "<leader>lu", unpin_main_file, desc = "unpin main file", icon = "", buffer = 0 },
-    { "<leader>lv", typst_view_pdf, desc = "view pdf (Sioyek)", icon = "", buffer = 0 },
+    { "<leader>lv", typst_view_pdf, desc = "view pdf (Skim)", icon = "", buffer = 0 },
     { "<leader>lw", typst_watch_stop, desc = "stop watch", icon = "󰅚", buffer = 0 },
     { "<leader>lx", "<cmd>TypstPreviewStop<CR>", desc = "stop preview", icon = "󰅚", buffer = 0 },
   })
